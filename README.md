@@ -24,11 +24,14 @@ A projekt során egy Windows-alapú szerverkörnyezetet kell kialakítani, amely
 ### **1. VirtualBox konfiguráció (1 pont)**
 - Hozzon létre egy virtuális környezetet, amely biztosítja a szerver és a kliensgépek megfelelő működését. (meghajtók, hálókátyák)
 
+---
+
 ### **2. Alapvető kliensbeállítások (3 pont)**
 - Állítsa be a megfelelő hálózati interfészeket. (2p)
 - A számítógép azonosító neve legyen: „kliens”. (1p)
 - A kliens DNS-kiszolgálója a szerver IP-címe legyen.
 
+---
 
 ### **3. Alapvető szerverbeállítások (9 pont)**
 - Állítsa be a megfelelő hálózati interfészeket. (1p)
@@ -37,12 +40,15 @@ A projekt során egy Windows-alapú szerverkörnyezetet kell kialakítani, amely
 - Telepítse a szükséges szoftvereket és szolgáltatásokat. (3p)
 - A szerveren az elsődleges DNS a 8.8.8.8, a másodlagos DNS pedig 1.1.1.1 harmadlagosnak 8.8.4.4
 
+---
+
 ### **4. Active Directory tartományvezérlő telepítése és konfigurálása (3 pont)**
 - A tartomány neve legyen: „robbanas.hu”. (1p)
 - A jelszó **Aa1234** legyen
 - Hozza létre a "dolgozok" és "adminok" csoportokat.
 - Adja hozzá a következő felhasználókat: (1p)
 - Mindegyik felhasználónak **Aa1234.** legyen a jelszava
+
 
 | Teljes név             | Belépési név | Csoport  |
 | ---------------------- | ------------ | -------- |
@@ -52,8 +58,12 @@ A projekt során egy Windows-alapú szerverkörnyezetet kell kialakítani, amely
 
 - Hozzon létre egy megosztott mappát, amely csak **olvasási** joggal rendelkezik és automatikusan felcsatolásra kerül. (1p)
 
+---
+
 ### **7. Távoli asztal elérés konfigurálása és tesztelése (1 pont)**
 - Engedélyezze a távoli asztali kapcsolatot és ellenőrizze annak működését.
+
+---
 
 ### **9. RAID (2 pont)**
 - Hozzon létre egy meghajtókat (5 db, a tárhely kapacitása szabadon választható)
@@ -131,10 +141,6 @@ A vizsga befejezése után kérjük, hogy adja le a dokumentációt és az ellen
 
 ---
 
----
-
----
-
 ### **7. DHCP szerver beállítása (4 pont)**
 - Telepítse és konfigurálja az **ISC DHCP szervert**. (1p)
 - Állítsa be a DHCP hatókört **192.168.1.100-192.168.1.200** tartományban. (1p)
@@ -146,10 +152,6 @@ A vizsga befejezése után kérjük, hogy adja le a dokumentációt és az ellen
 ### **8. Apache webkiszolgáló telepítése (2 pont)**
 - Telepítse az **Apache** webkiszolgálót. (1p)
 - Indítsa el és ellenőrizze a működését. (1p)
-
----
-
----
 
 ---
 
